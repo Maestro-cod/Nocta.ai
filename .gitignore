@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node / build
+node_modules
+dist
+dist-ssr
+build
+out
+*.local
+coverage
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+.secrets
+google-services.json
+GoogleService-Info.plist
+*.keystore
+*.jks
+key.properties
+
+# Native
+android/.gradle
+android/build
+android/app/build
+android/local.properties
+ios/Pods
+ios/*.xcworkspace
+ios/build
+ios/.xcode.env.local
+
+# Play / App Store export artifacts
+*.aab
+*.apk
+*.ipa
+*.dsym
